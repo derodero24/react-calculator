@@ -9,7 +9,8 @@ export default function Result({ result }) {
             borderBottom={1}
             bgcolor='background.paper'
             textAlign='right'
-            style={{ height: '32px'}}
+            style={{ height: '64px',
+                     fontSize:'3em',}}
             fontWeight="fontWeightMedium">
             {result}
         </Box>
